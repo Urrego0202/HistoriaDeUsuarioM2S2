@@ -1,0 +1,24 @@
+header {
+    text-align: center;
+}
+
+.imagenesmascotas {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que las imágenes bajen a nuevas filas */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mascota {
+    width: 250px;
+    text-align: center;
+}
+
+.mascota img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}

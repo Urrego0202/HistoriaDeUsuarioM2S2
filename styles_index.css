@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 2 columnas iguales */
+    gap: 20px;
+}
+
+.h1andimg img {
+    width: 250px;
+    height: 250px;
+}
+
+.h1andimg {
+    padding-top: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Codigo a parte de lo que pidieron en M2S2 */
+.aboutme {
+    text-align: center;
+}
